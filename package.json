@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Read and write runtime configurations from Google Cloud Platform",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc --project ./src/tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 0",
