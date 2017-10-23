@@ -1,0 +1,38 @@
+{
+  "name": "gcf-runtime-configuration",
+  "version": "1.0.0",
+  "description": "Read and write runtime configurations from Google Cloud Platform",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --project ./src/tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "lint": "tslint --project tsconfig.json --type-check --fix",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ert78gb/gcf-runtime-configuration.git"
+  },
+  "author": "Róbert Kiss <ert78gb@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "dist/"
+  ],
+  "directories": {
+    "lib": "dist"
+  },
+  "dependencies": {
+    "googleapis": "^22.2.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.4",
+    "@types/mocha": "^2.2.43",
+    "@types/node": "^8.0.46",
+    "angular-tslint-rules": "^1.0.4",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "tslint": "^5.8.0",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.3"
+  }
+}
