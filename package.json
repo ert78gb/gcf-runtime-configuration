@@ -1,6 +1,6 @@
 {
   "name": "gcf-runtime-configuration",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Read and write runtime configurations from Google Cloud Platform",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
