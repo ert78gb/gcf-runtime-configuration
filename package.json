@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc --project ./src/tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 0",
-    "lint": "tslint --project tsconfig.json --type-check --fix",
+    "lint": "tslint --project tsconfig.json --fix",
     "release": "standard-version"
   },
   "repository": {
@@ -23,18 +23,20 @@
     "lib": "dist"
   },
   "dependencies": {
-    "googleapis": "^22.2.0"
+    "googleapis": "^22.2.0",
+    "uuid": "^3.1.0"
   },
   "devDependencies": {
     "@types/chai": "^4.0.4",
     "@types/mocha": "^2.2.43",
     "@types/node": "^8.0.46",
+    "@types/uuid": "^3.4.3",
     "angular-tslint-rules": "^1.0.4",
     "chai": "^4.1.2",
     "mocha": "^4.0.1",
-    "standard-version":"^4.2.0",
-    "tslint": "^5.8.0",
+    "standard-version": "^4.2.0",
     "ts-node": "^3.3.0",
+    "tslint": "^5.8.0",
     "typescript": "^2.5.3"
   }
 }
